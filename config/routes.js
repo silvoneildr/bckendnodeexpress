@@ -10,7 +10,3 @@ module.exports = function(server) {
     const pessoaService = require('../api/pessoa/pessoaService')
     pessoaService.register(router,'/pessoas')
 }
-/*
-    router.route('/teste').get(function(req,res,next){
-        res.send('asjdfhkjahfjkhsdjkfhdkjashfkjsdahfkjal')
-    })*/

@@ -1,0 +1,45 @@
+.navbar-right{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+h4{
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    font-family: cursive;*/
+    color: dimgray;
+    
+}
+
+#col-md-2 col-sm-2 col-lg-{
+    width: 200px;
+}
+
+#tbPerson {
+    font-size: 13px;
+    font-family: cursive;
+}
+
+#col-md-3 col-md-pull-9{
+    width: 200px;
+}
+
+.btn-group{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.card-title{
+    font-family:cursive;   
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.card-text{
+    font-family:cursive;   
+}

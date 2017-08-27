@@ -9,11 +9,10 @@ const pessoa = new mongoose.Schema({
     },
     cpf: {
         type:String, 
-        required: [true, "Campo obrigatório!"], 
-        unique: [true, "Já existe este CPF!"]
+        required: [true, "Campo obrigatório!"]
     },
     uf: {type:String},
-    nasc: {type:String},
+    nasc: {type:Date},
     peso: {type:Number}
 })
 pessoa.plugin(uniqueValidator);

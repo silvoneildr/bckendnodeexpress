@@ -8,6 +8,8 @@ server.use(bodyParser.urlencoded({ extended: true }))
 server.use(bodyParser.json())
 server.use(allowCors)
 
+server.use(express.static('dist'));
+
 server.listen(port,function(){
     console.log(`BACKEND is running on port ${port}`)
 })
