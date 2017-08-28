@@ -35142,7 +35142,7 @@ angular.module('personApp', ['ngRoute'])
         }
 ]);
 angular.module('personApp')
-    .controller('CadPersonCtrl', function($scope, $http, $location, $routeParams) {
+    .controller('CadPersonCtrl', function($scope, $http, $location, $routeParams, uiMask) {
 
         $scope.formEdit = $routeParams.edit
  
@@ -35166,7 +35166,7 @@ angular.module('personApp')
         });
                        
         // retorna lista de estados brasileiros
-        $http.get("https://www.geonames.org/childrenJSON?geonameId=3469034")
+        $http.get("http://www.geonames.org/childrenJSON?geonameId=3469034")
             .then(function(response) {
                 $scope.arrEstados = response;
             }, function(response) {
