@@ -35142,7 +35142,7 @@ angular.module('personApp', ['ngRoute'])
         }
 ]);
 angular.module('personApp')
-    .controller('CadPersonCtrl', function($scope, $http, $location, $routeParams, uiMask) {
+    .controller('CadPersonCtrl', function($scope, $http, $location, $routeParams) {
 
         $scope.formEdit = $routeParams.edit
  
