@@ -10,7 +10,7 @@ server.use(allowCors)
 
 server.use(express.static('dist'));
 
-server.listen(port,function(){
+server.listen(process.env.PORT || port,function(){
     console.log(`BACKEND is running on port ${port}`)
 })
 
